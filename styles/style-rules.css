@@ -11,6 +11,15 @@
         font-size: 22px;
     }
 
+    .rules-container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 20px ;
+        
+        border-radius: 8px;
+        
+      }
+
     
 }
 
@@ -24,6 +33,15 @@
         font-size: 22px;
     }
 
+    .rules-container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 20px 0;
+        
+        border-radius: 8px;
+        
+      }
+
    
   }
   
@@ -32,14 +50,7 @@
   
 
 
-  .rules-container {
-    max-width: 70%;
-    margin: 0 auto;
-    padding: 20px 0;
-    
-    border-radius: 8px;
-    
-  }
+  
   
   .rules-container h1 {
     color: #333;
