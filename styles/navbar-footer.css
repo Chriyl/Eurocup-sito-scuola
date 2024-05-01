@@ -7,8 +7,10 @@
   }
   
   body{
-    background: #DAE3E5
+    background: #DAE3E5;
   }
+
+
   
   .navbar {
     background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
@@ -41,15 +43,15 @@
   
 
   .footer {
-    background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
-    color: #04080F; /* Colore del testo */
-    padding: 20px 0; /* Spaziatura interna del footer */
-    text-align: center; /* Allineamento del testo al centro */
-    position: fixed;
+    position: fixed; /* Posizionamento fisso rispetto al viewport */
     bottom: 0; /* Fissare il footer in basso della finestra del browser */
     width: 100%; /* Larghezza del footer al 100% della finestra del browser */
+    background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
+    color: #fff; /* Colore del testo */
+    padding: 20px 0; /* Spaziatura interna del footer */
+    text-align: center; /* Allineamento del testo al centro */
   }
-  
+
   .footer a {
     color: #04080F; /* Colore dei link nel footer */
     text-decoration: none; /* Rimuovere sottolineatura dai link */

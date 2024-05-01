@@ -25,29 +25,28 @@
     
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
     /* Stili per schermi con larghezza massima di 767px (tipicamente dispositivi mobili) */
     /* Aggiungi qui i tuoi stili */
     .rules-list li {
-        margin-bottom: 10px;
-       
-        line-height: 1.7;
-        font-size: 22px;
+      margin-bottom: 10px;
+      line-height: 1.7;
+      font-size: 22px;
     }
-
+  
     .rules-container {
-        width: 100%; /* Larghezza del 100% per andare fino al margine destro */
-        max-width: none; /* Rimuovere il limite massimo di larghezza */
-        padding: 30px 30px;
-        border-radius: 8px;
-        margin: 0 auto; /* Centrare il contenitore */
+      width: 100%; /* Larghezza del 100% per andare fino al margine destro */
+      max-width: none; /* Rimuovere il limite massimo di larghezza */
+      padding: 30px 30px;
+      border-radius: 8px;
+      margin: 0 auto; /* Centrare il contenitore */
     }
-
+  }
+  
  
 
    
-  }
-  
+    
 
   
   .rules-container h1 {
