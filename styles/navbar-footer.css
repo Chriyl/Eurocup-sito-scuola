@@ -1,0 +1,61 @@
+/* Navbar styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+    background: #DAE3E5
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
+   
+  }
+  
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar-item {
+    float: left;
+  }
+  
+  .navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    background-color: #111;
+  }
+  
+
+  .footer {
+    background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
+    color: #04080F; /* Colore del testo */
+    padding: 20px 0; /* Spaziatura interna del footer */
+    text-align: center; /* Allineamento del testo al centro */
+    position: fixed;
+    bottom: 0; /* Fissare il footer in basso della finestra del browser */
+    width: 100%; /* Larghezza del footer al 100% della finestra del browser */
+  }
+  
+  .footer a {
+    color: #04080F; /* Colore dei link nel footer */
+    text-decoration: none; /* Rimuovere sottolineatura dai link */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Sottolineare il link al passaggio del mouse */
+  }
+  

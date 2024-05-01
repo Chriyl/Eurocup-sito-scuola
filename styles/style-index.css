@@ -1,57 +1,19 @@
-/* Navbar styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
 
-body{
-  background: #DAE3E5
-}
-
-.navbar {
-  background: linear-gradient(to right, #5D8BCC, #BBD1EA); /* gradiente che sfuma da #ff9900 a #ff5f6d */
- 
-}
-
-
-.navbar-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navbar-item {
-  float: left;
-}
-
-.navbar-link {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar-link:hover {
-  background-color: #111;
-}
 
 img {
   max-width: 40%; /* L'immagine si ridimensionerà per adattarsi alla larghezza del suo contenitore */
-  height: auto; /* L'altezza sarà regolata proporzionalmente per mantenere le proporzioni originali */
-  margin-left: 27%;
+
+  margin-left: 30%;
 }
 
 .spiegone{
   margin-top: 25px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 24px;
   
 }
+
