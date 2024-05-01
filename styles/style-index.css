@@ -1,4 +1,17 @@
 
+@media screen and (max-width: 767px){
+  .spiegone{
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    
+  }
+}
+
 
 img {
   max-width: 40%; /* L'immagine si ridimensionerà per adattarsi alla larghezza del suo contenitore */
