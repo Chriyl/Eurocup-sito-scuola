@@ -43,7 +43,7 @@
   
 
   .footer {
-    position: fixed; /* Posizionamento fisso rispetto al viewport */
+    position:static; /* Posizionamento fisso rispetto al viewport */
     bottom: 0; /* Fissare il footer in basso della finestra del browser */
     width: 100%; /* Larghezza del footer al 100% della finestra del browser */
     background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
