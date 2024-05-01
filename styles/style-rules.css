@@ -41,15 +41,19 @@
 
 
   .rules-container {
-    width: 100%; /* Occupa tutta la larghezza della pagina */
+    max-width: 70%;
+    margin: 0 auto;
     padding: 20px;
-   
-    margin-left: 20px;
+    
+    border-radius: 8px;
+    
   }
   
   .rules-container h1 {
     color: #333;
     text-align: center;
+    width: 80%; /* Larghezza massima del contenitore delle regole */
+    margin: 20px auto; /* Centrare il contenitore */
     
   }
   
@@ -62,6 +66,6 @@
   .rules-list li {
     margin-bottom: 10px;
     padding-left: 20px;
-    line-height: 2.3;
+    line-height: 1.7;
     font-size: 22px;
   }
