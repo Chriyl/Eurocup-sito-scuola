@@ -8,7 +8,7 @@
         margin-bottom: 10px;
         padding-left: 20px;
         line-height: 1.7;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .rules-container {
@@ -20,19 +20,7 @@
         
       }
 
-      .rules-container h1 {
-        color: #333;
-        text-align: center;
-        width: 80%; /* Larghezza massima del contenitore delle regole */
-        margin: 20px auto; /* Centrare il contenitore */
-        
-      }
-      
-      .rules-list {
-        list-style-type: disc; /* Utilizza un elenco puntato */
-        margin-top: 20px;
-        
-      }
+     
 
     
 }
@@ -55,27 +43,26 @@
         margin: 0 auto; /* Centrare il contenitore */
     }
 
-        .rules-container h1 {
-        color: #333;
-        text-align: center;
-        width: 80%; /* Larghezza massima del contenitore delle regole */
-        margin: 20px auto; /* Centrare il contenitore */
-        
-    
-        }
-  
-    .rules-list {
-        list-style-type: disc; /* Utilizza un elenco puntato */
-        margin-top: 20px;
-        
-    }
+ 
 
    
   }
   
 
   
+  .rules-container h1 {
+    color: #333;
+    text-align: center;
+    width: 80%; /* Larghezza massima del contenitore delle regole */
+   
+    
+  }
   
+  .rules-list {
+    list-style-type: disc; /* Utilizza un elenco puntato */
+    margin-top: 20px;
+    
+  }
 
 
   
