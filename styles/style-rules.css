@@ -8,7 +8,7 @@
         margin-bottom: 10px;
         padding-left: 20px;
         line-height: 1.7;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .rules-container {
@@ -50,7 +50,7 @@
     .rules-container {
         width: 100%; /* Larghezza del 100% per andare fino al margine destro */
         max-width: none; /* Rimuovere il limite massimo di larghezza */
-        padding: 20px 0;
+        padding: 30px 30px;
         border-radius: 8px;
         margin: 0 auto; /* Centrare il contenitore */
     }
@@ -60,6 +60,7 @@
         text-align: center;
         width: 80%; /* Larghezza massima del contenitore delle regole */
         margin: 20px auto; /* Centrare il contenitore */
+        
     
         }
   
