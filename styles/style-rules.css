@@ -14,9 +14,23 @@
     .rules-container {
         max-width: 70%;
         margin: 0 auto;
-        padding: 20px ;
+        padding: 20px  ;
         
         border-radius: 8px;
+        
+      }
+
+      .rules-container h1 {
+        color: #333;
+        text-align: center;
+        width: 80%; /* Larghezza massima del contenitore delle regole */
+        margin: 20px auto; /* Centrare il contenitore */
+        
+      }
+      
+      .rules-list {
+        list-style-type: disc; /* Utilizza un elenco puntato */
+        margin-top: 20px;
         
       }
 
@@ -34,13 +48,26 @@
     }
 
     .rules-container {
-        max-width: 70%;
-        margin: 0 auto;
+        width: 100%; /* Larghezza del 100% per andare fino al margine destro */
+        max-width: none; /* Rimuovere il limite massimo di larghezza */
         padding: 20px 0;
-        
         border-radius: 8px;
+        margin: 0 auto; /* Centrare il contenitore */
+    }
+
+        .rules-container h1 {
+        color: #333;
+        text-align: center;
+        width: 80%; /* Larghezza massima del contenitore delle regole */
+        margin: 20px auto; /* Centrare il contenitore */
+    
+        }
+  
+    .rules-list {
+        list-style-type: disc; /* Utilizza un elenco puntato */
+        margin-top: 20px;
         
-      }
+    }
 
    
   }
@@ -52,16 +79,3 @@
 
   
   
-  .rules-container h1 {
-    color: #333;
-    text-align: center;
-    width: 80%; /* Larghezza massima del contenitore delle regole */
-    margin: 20px auto; /* Centrare il contenitore */
-    
-  }
-  
-  .rules-list {
-    list-style-type: disc; /* Utilizza un elenco puntato */
-    margin-top: 20px;
-    
-  }
