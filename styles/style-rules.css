@@ -1,8 +1,41 @@
 
+@media screen and (min-width: 1024px) {
+    /* Stili per schermi con larghezza minima di 1024px (tipicamente monitor desktop) */
+    /* Aggiungi qui i tuoi stili */
+  
+   
+    .rules-list li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        line-height: 1.7;
+        font-size: 22px;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    /* Stili per schermi con larghezza massima di 767px (tipicamente dispositivi mobili) */
+    /* Aggiungi qui i tuoi stili */
+    .rules-list li {
+        margin-bottom: 10px;
+       
+        line-height: 1.7;
+        font-size: 22px;
+    }
+
+   
+  }
+  
+
+  
+  
+
+
   .rules-container {
     max-width: 70%;
     margin: 0 auto;
-    padding: 20px;
+   
     
     border-radius: 8px;
     
@@ -12,7 +45,7 @@
     color: #333;
     text-align: center;
     width: 80%; /* Larghezza massima del contenitore delle regole */
-    margin: 20px auto; /* Centrare il contenitore */
+    
     
   }
   
@@ -20,11 +53,4 @@
     list-style-type: disc; /* Utilizza un elenco puntato */
     margin-top: 20px;
     
-  }
-  
-  .rules-list li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    line-height: 1.7;
-    font-size: 22px;
   }
