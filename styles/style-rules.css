@@ -35,7 +35,7 @@
   .rules-container {
     max-width: 70%;
     margin: 0 auto;
-   
+    padding: 20px 0;
     
     border-radius: 8px;
     
@@ -45,7 +45,7 @@
     color: #333;
     text-align: center;
     width: 80%; /* Larghezza massima del contenitore delle regole */
-    
+    margin: 20px auto; /* Centrare il contenitore */
     
   }
   
