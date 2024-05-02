@@ -8,6 +8,8 @@
     src: url("../fonts/DINPro-Medium\ tr.ttf");
   }
   
+
+
   @media screen and (min-width: 1024px) {
       /* Stili per schermi con larghezza minima di 1024px (tipicamente monitor desktop) */
       /* Aggiungi qui i tuoi stili */
@@ -24,11 +26,10 @@
       .rules-container {
         max-width: 70%;
         margin: 0 auto;
-        padding: 20px  ;
+        padding: 20px;
         border-radius: 8px;
-          
-      }
-  
+        margin-bottom: 120px; /* Aggiunto un margine inferiore sufficiente per evitare che il footer lo copra */
+    }
        
   
       
@@ -46,10 +47,12 @@
     
       .rules-container {
         width: 100%; /* Larghezza del 100% per andare fino al margine destro */
+        margin: 0 auto;
         max-width: none; /* Rimuovere il limite massimo di larghezza */
-        padding: 30px 30px;
+        padding:  20px;
         border-radius: 8px;
         margin: 0 auto; /* Centrare il contenitore */
+        margin-bottom: 100px;
       }
     }
     
@@ -64,7 +67,7 @@
     .rules-container h1 {
       color: #333;
       text-align: center;
-      width: 80%; /* Larghezza massima del contenitore delle regole */
+      width: 100%; /* Larghezza massima del contenitore delle regole */
      
       
     }

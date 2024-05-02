@@ -26,7 +26,7 @@
   
   body{
     background: #DAE3E5;
-    
+    position: relative;
   }
 
 
@@ -62,14 +62,16 @@
     background-color: #111;
   }
   
-
+  main {
+    margin-bottom: 60px; /* Altezza del footer */
+}
   .footer {
-    position:sticky; /* Posizionamento fisso rispetto al viewport */
+    position:fixed; /* Posizionamento fisso rispetto al viewport */
     bottom: 0;/* Fissare il footer in basso della finestra del browser */
     width: 100%; /* Larghezza del footer al 100% della finestra del browser */
     background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
     color: #fff; /* Colore del testo */
-    padding: 20px 0; /* Spaziatura interna del footer */
+    padding: 10px 0; /* Spaziatura interna del footer */
     text-align: center; /* Allineamento del testo al centro */
     font-family: dinpro;
     
