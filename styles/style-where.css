@@ -1,0 +1,30 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Altezza pari all'altezza della finestra del browser */
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Larghezza della tabella */
+    margin-left: 10%; /* Sposta la tabella più a destra */
+    margin-right: 20%; /* Sposta la tabella più a sinistra */
+}
+
+table td {
+    
+    padding: 40px; /* Aggiungi spazio interno alle celle */
+    text-align: center; /* Centra il contenuto all'interno delle celle */
+    font-size: 25px;
+}
+
+
+
+table img {
+    max-width: 100px; /* Imposta la larghezza massima dell'immagine */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+h1{
+    text-align: center;
+}

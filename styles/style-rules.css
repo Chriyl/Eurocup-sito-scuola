@@ -5,20 +5,19 @@
   
    
     .rules-list li {
-        margin-bottom: 10px;
-        padding-left: 20px;
-        line-height: 1.7;
-        font-size: 22px;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      line-height: 1.7;
+      font-size: 22px;
     }
 
     .rules-container {
-        max-width: 70%;
-        margin: 0 auto;
-        padding: 20px  ;
+      max-width: 70%;
+      margin: 0 auto;
+      padding: 20px  ;
+      border-radius: 8px;
         
-        border-radius: 8px;
-        
-      }
+    }
 
      
 
