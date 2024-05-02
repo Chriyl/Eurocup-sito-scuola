@@ -1,4 +1,64 @@
+@media only screen and (min-width : 1024px) {
+     
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60; /* Altezza pari all'altezza della finestra del browser */
+    
+}
 
+table {
+    border-collapse: collapse;
+    width: 80%; /* Larghezza della tabella */
+    margin-left: 15%; /* Sposta la tabella più a destra */
+    margin-right: 15%; /* Sposta la tabella più a sinistra */
+    margin-top: 80px;
+    
+}
+
+
+
+table td {
+    
+    padding: 20px; /* Aggiungi spazio interno alle celle */
+    text-align: center; /* Centra il contenuto all'interno delle celle */
+    font-size: 25px;
+    font-family: dinpro;
+    width: 40%;
+    
+}
+
+table img.first {
+    width: 40%; /* Imposta una larghezza fissa per l'immagine */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+    table {
+        width: 100%; /* Occupa l'intera larghezza dello schermo */
+        margin: 0; /* Rimuove i margini */
+        padding-left: 20px; /* Aggiunge spazio a sinistra della tabella */
+        
+    }
+
+    td {
+        display: block; /* Imposta ogni cella su una riga separata */
+        margin-bottom: 20px; /* Aggiunge spazio tra le righe */
+        max-width: 700px;
+        text-align: justify;
+        margin-top: 30px;
+        
+    }
+
+    td:first-child {
+        margin-bottom: 0; /* Rimuove lo spazio inferiore per la prima cella */
+    }
+}
 @font-face {
     src: url("../fonts/Neufreit-ExtraBold.otf");
     font-family: neufreit;
@@ -12,41 +72,7 @@
   h1{
     font-family: neufreit;
   }
-  
-.table-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Altezza pari all'altezza della finestra del browser */
-}
-
-table {
-    border-collapse: collapse;
-    width: 80%; /* Larghezza della tabella */
-    margin-left: 10%; /* Sposta la tabella più a destra */
-    margin-right: 10%; /* Sposta la tabella più a sinistra */
-    margin-top: 50px;
-    
-}
-
-
-
-table td {
-    
-    padding: 40px; /* Aggiungi spazio interno alle celle */
-    text-align: center; /* Centra il contenuto all'interno delle celle */
-    font-size: 25px;
-    font-family: dinpro;
-    
-}
-
-table img.first {
-    width: 40%; /* Imposta una larghezza fissa per l'immagine */
-    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
-}
-
-
-
+ 
 
 .footer{
     margin-top: 285px;
@@ -54,4 +80,9 @@ table img.first {
 
 h1{
     text-align: center;
+}
+
+table td{
+    font-family: dinpro;
+    width: 40%;
 }
