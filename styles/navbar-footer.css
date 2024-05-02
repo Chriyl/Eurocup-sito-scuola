@@ -3,6 +3,10 @@
   
 }
 
+@font-face {
+  font-family: dinpro;
+  src: url("../fonts/DINPro-Medium\ tr.ttf");
+}
 
 
 * {
@@ -23,6 +27,7 @@
   
   .navbar {
     background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
+    
    
   }
   
@@ -59,6 +64,8 @@
     color: #fff; /* Colore del testo */
     padding: 20px 0; /* Spaziatura interna del footer */
     text-align: center; /* Allineamento del testo al centro */
+    font-family: dinpro;
+    
   }
 
   .footer a {

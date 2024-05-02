@@ -1,3 +1,18 @@
+
+@font-face {
+    src: url("../fonts/Neufreit-ExtraBold.otf");
+    font-family: neufreit;
+  }
+  
+  @font-face {
+    font-family: dinpro;
+    src: url("../fonts/DINPro-Medium\ tr.ttf");
+  }
+
+  h1{
+    font-family: neufreit;
+  }
+  
 .table-container {
     display: flex;
     justify-content: center;
@@ -9,22 +24,34 @@ table {
     border-collapse: collapse;
     width: 80%; /* Larghezza della tabella */
     margin-left: 10%; /* Sposta la tabella più a destra */
-    margin-right: 20%; /* Sposta la tabella più a sinistra */
+    margin-right: 10%; /* Sposta la tabella più a sinistra */
+    margin-top: 50px;
+    
 }
+
+
 
 table td {
     
     padding: 40px; /* Aggiungi spazio interno alle celle */
     text-align: center; /* Centra il contenuto all'interno delle celle */
     font-size: 25px;
+    font-family: dinpro;
+    
 }
 
-
-
-table img {
-    max-width: 100px; /* Imposta la larghezza massima dell'immagine */
+table img.first {
+    width: 40%; /* Imposta una larghezza fissa per l'immagine */
     height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
 }
+
+
+
+
+.footer{
+    margin-top: 285px;
+}
+
 h1{
     text-align: center;
 }
