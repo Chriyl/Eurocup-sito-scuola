@@ -9,17 +9,14 @@
   src: url("../fonts/DINPro-Medium\ tr.ttf");
 }
 
-@font-face {
-  font-family: boldoni;
-  src: url("../fonts/DINPro-Bold\ tr.ttf");
-}
+
 
 @media screen and (max-width: 767px){
   .spiegone{
     margin-top: 25px;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 100px;
+    margin-bottom: 100%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
