@@ -9,6 +9,11 @@
   src: url("../fonts/DINPro-Medium\ tr.ttf");
 }
 
+@font-face {
+  font-family: boldoni;
+  src: url("../fonts/DINPro-Bold\ tr.ttf");
+}
+
 @media screen and (max-width: 767px){
   .spiegone{
     margin-top: 25px;

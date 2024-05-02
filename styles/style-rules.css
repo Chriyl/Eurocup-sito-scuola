@@ -1,81 +1,76 @@
-
 @font-face {
-  src: url("../fonts/Neufreit-ExtraBold.otf");
-  font-family: neufreit;
-}
-
-@font-face {
-  font-family: dinpro;
-  src: url("../fonts/DINPro-Medium\ tr.ttf");
-}
-
-@media screen and (min-width: 1024px) {
-    /* Stili per schermi con larghezza minima di 1024px (tipicamente monitor desktop) */
-    /* Aggiungi qui i tuoi stili */
+    src: url("../fonts/Neufreit-ExtraBold.otf");
+    font-family: neufreit;
+  }
   
-   
-    .rules-list li {
-      margin-bottom: 10px;
-      padding-left: 20px;
-      line-height: 1.7;
-      font-size: 22px;
-      font-family: dinpro;
-    }
-
-    .rules-container {
-      max-width: 70%;
-      margin: 0 auto;
-      padding: 20px  ;
-      border-radius: 8px;
-        
-    }
-
+  @font-face {
+    font-family: dinpro;
+    src: url("../fonts/DINPro-Medium\ tr.ttf");
+  }
+  
+  @media screen and (min-width: 1024px) {
+      /* Stili per schermi con larghezza minima di 1024px (tipicamente monitor desktop) */
+      /* Aggiungi qui i tuoi stili */
+    
      
-
-    
-}
-
-@media only screen and (max-width: 1023px) {
-    /* Stili per schermi con larghezza massima di 767px (tipicamente dispositivi mobili) */
-    /* Aggiungi qui i tuoi stili */
-    .rules-list li {
-      margin-bottom: 10px;
-      line-height: 1.7;
-      font-size: 22px;
-      font-family: dinpro;
-    }
+      .rules-list li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        line-height: 1.7;
+        font-size: 22px;
+        font-family: dinpro;
+      }
   
-    .rules-container {
-      width: 100%; /* Larghezza del 100% per andare fino al margine destro */
-      max-width: none; /* Rimuovere il limite massimo di larghezza */
-      padding: 30px 30px;
-      border-radius: 8px;
-      margin: 0 auto; /* Centrare il contenitore */
-    }
+      .rules-container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 20px  ;
+        border-radius: 8px;
+          
+      }
+  
+       
+  
+      
   }
   
- 
-
+  @media only screen and (max-width: 1023px) {
+      /* Stili per schermi con larghezza massima di 767px (tipicamente dispositivi mobili) */
+      /* Aggiungi qui i tuoi stili */
+      .rules-list li {
+        margin-bottom: 10px;
+        line-height: 1.7;
+        font-size: 22px;
+        font-family: dinpro;
+      }
+    
+      .rules-container {
+        width: 100%; /* Larghezza del 100% per andare fino al margine destro */
+        max-width: none; /* Rimuovere il limite massimo di larghezza */
+        padding: 30px 30px;
+        border-radius: 8px;
+        margin: 0 auto; /* Centrare il contenitore */
+      }
+    }
+    
    
-    h1{
-      font-family: neufreit;
+  
+     
+      h1{
+        font-family: neufreit;
+      }
+  
+    
+    .rules-container h1 {
+      color: #333;
+      text-align: center;
+      width: 80%; /* Larghezza massima del contenitore delle regole */
+     
+      
     }
-
-  
-  .rules-container h1 {
-    color: #333;
-    text-align: center;
-    width: 80%; /* Larghezza massima del contenitore delle regole */
-   
     
-  }
-  
-  .rules-list {
-    list-style-type: disc; /* Utilizza un elenco puntato */
-    margin-top: 20px;
-    
-  }
-
-
-  
-  
+    .rules-list {
+      list-style-type: disc; /* Utilizza un elenco puntato */
+      margin-top: 20px;
+      
+    }

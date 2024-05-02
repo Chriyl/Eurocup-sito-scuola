@@ -8,6 +8,11 @@
   src: url("../fonts/DINPro-Medium\ tr.ttf");
 }
 
+@font-face {
+  font-family: boldoni;
+  src: url("../fonts/DINPro-Bold\ tr.ttf");
+}
+
 
 * {
     margin: 0;
@@ -49,6 +54,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: boldoni;
   }
   
   .navbar-link:hover {
@@ -57,8 +63,8 @@
   
 
   .footer {
-    position:static; /* Posizionamento fisso rispetto al viewport */
-  /* Fissare il footer in basso della finestra del browser */
+    position:sticky; /* Posizionamento fisso rispetto al viewport */
+    bottom: 0;/* Fissare il footer in basso della finestra del browser */
     width: 100%; /* Larghezza del footer al 100% della finestra del browser */
     background: linear-gradient(to right, #5D8BCC, #BBD1EA); 
     color: #fff; /* Colore del testo */
