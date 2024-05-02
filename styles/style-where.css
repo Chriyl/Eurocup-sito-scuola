@@ -52,17 +52,11 @@ table img.first {
         max-width: 700px;
         text-align: justify;
         margin-top: 30px;
-        margin-left: 60px;
+        margin-left: 70px;
     }
 
     td:first-child {
         margin-bottom: 0; /* Rimuove lo spazio inferiore per la prima cella */
-    }
-
-    td p{
-        margin-left: 70px;
-        height: 100px;
-        margin-bottom:124 ;
     }
 }
 @font-face {
