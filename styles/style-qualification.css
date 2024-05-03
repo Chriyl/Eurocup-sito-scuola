@@ -1,0 +1,29 @@
+@font-face {
+    font-family: dinpro;
+    src: url("../fonts/DINPro-Medium\ tr.ttf");
+}
+
+@font-face {
+    font-family: maxBoldi;
+    src: url("../fonts/DINPro-Bold\ tr.ttf");
+}
+
+.banner{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    margin-right: 20%;
+    font-family: dinpro;
+   
+}
+
+ img{
+    width: 70%;
+    height: auto;
+    
+}
+
+.requirements{
+    font-family: maxBoldi ;
+}
